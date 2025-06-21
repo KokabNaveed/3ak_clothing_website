@@ -36,19 +36,3 @@ Welcome to **3AK**, a modern and responsive fashion e-commerce website built usi
 
 ## 📁 Project Structure
 
-3ak-clothing-store/
-├── index.html
-├── men.html
-├── women.html
-├── kids.html
-├── contact.html
-├── about.html
-├── cart.html
-├── checkout.html
-├── style.css
-├── images/
-│ ├── men1.jpeg
-│ ├── kid1.jpeg
-│ ├── lady1.jpeg
-│ └── ... (other product/team images)
-└── README.md

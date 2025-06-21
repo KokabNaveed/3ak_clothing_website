@@ -33,6 +33,3 @@ Welcome to **3AK**, a modern and responsive fashion e-commerce website built usi
 - Google Fonts (Poppins)
 
 ---
-
-## 📁 Project Structure
-

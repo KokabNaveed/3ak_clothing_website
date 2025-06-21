@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>3AK - Checkout</title>
+   <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">3AK</div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="men.html">Men</a></li>
+      <li><a href="women.html">Women</a></li>
+      <li><a href="kids.html">Kids</a></li>
+      <li><a href="contact.html">Feedback</a></li>
+      <li><a href="about.html">About us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Checkout Form -->
+  <section class="checkout-container">
+    <h2>Checkout</h2>
+
+    <div class="form-section">
+      <!-- Billing Info -->
+      <div class="form-box">
+        <h3>Billing Details</h3>
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <input type="text" placeholder="Phone Number" required />
+        <input type="text" placeholder="Street Address" required />
+        <input type="text" placeholder="City" required />
+        <input type="text" placeholder="Postal Code" required />
+        <select>
+          <option selected disabled>Country</option>
+          <option>Pakistan</option>
+          <option>India</option>
+          <option>UAE</option>
+          <option>USA</option>
+        </select>
+      </div>
+
+      <!-- Payment Info -->
+      <div class="form-box">
+        <h3>Payment Method</h3>
+        <input type="text" placeholder="Cardholder Name" required />
+        <input type="text" placeholder="Card Number" required />
+        <input type="text" placeholder="Expiry Date (MM/YY)" required />
+        <input type="text" placeholder="CVV" required />
+
+        <div class="order-summary">
+          <h3>Order Summary</h3>
+          <div class="summary-item">
+            <span>Denim Jacket × 1</span>
+            <span>Rs. 3,499</span>
+          </div>
+          <div class="summary-item">
+            <span>Woolen Shawl × 2</span>
+            <span>Rs. 5,598</span>
+          </div>
+          <div class="summary-item summary-total">
+            <span>Total</span>
+            <span>Rs. 9,097</span>
+          </div>
+        </div>
+
+        <button class="checkout-btn">Place Order</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <div>
+        <h3>About 3AK</h3>
+        <p>Your one-stop store for affordable and trendy fashion for all ages.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <p><a href="about.html">About Us</a></p>
+        <p><a href="contact.html">Contact</a></p>
+        <p><a href="#">Return Policy</a></p>
+      </div>
+      <div>
+        <h3>Top Categories</h3>
+        <p><a href="men.html">Men</a></p>
+        <p><a href="women.html">Women</a></p>
+        <p><a href="kids.html">Kids</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p><i>© 2025 3AK - All Rights Reserved</i></p>
+    </div>
+  </footer>
+
+</body>
+</html>
